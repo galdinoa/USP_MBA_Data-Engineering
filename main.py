@@ -3,8 +3,7 @@ import boto3
 from dotenv import load_dotenv
 from client_reddit import ClientReddit
 
-
-load_dotenv()
+load_dotenv
 
 reddit = ClientReddit(
     client_id=os.environ.get("REDDIT_CLIENT_KEY"),
